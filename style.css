@@ -1,0 +1,349 @@
+/* ======= Global Styles ======= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8fa;
+    color: #333;
+}
+
+/* ======= Header ======= */
+header {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ======= Navigation Bar ======= */
+nav {
+    background-color: #002d5b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0
+    }
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+/* ======= Hero Section ======= */
+#hero {
+    text-align: center;
+    padding: 50px;
+    background: lavender;
+}
+
+#hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #555;
+}
+.hero-image {
+    width: 80%; /* Makes the image take full width */
+    max-width: 1000px; /* Increases max size */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 10px; /* Adds rounded corners (optional) */
+}
+
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background-color: gold;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
+}
+
+/* ======= Sections ======= */
+#services, #why-choose-us, #testimonials {
+    padding: 40px;
+    text-align: center;
+}
+
+#services {
+    background: white;
+}
+
+#why-choose-us {
+    background: #eef;
+}
+
+#testimonials {
+    background: #ddd;
+}
+
+/* Why Choose Us List */
+#why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#why-choose-us li {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* ======= Footer ======= */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d99;
+    color: white;
+}
+
+
+/* ======= Services Page Styles ======= */
+#services-list {
+    padding: 40px;
+    text-align: center;
+}
+
+#services-list h2 {
+    color: #004d99;
+}
+
+#services-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services-list li {
+    font-size: 18px;
+    margin: 10px 0;
+    background: #eef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ======= Global Styles (Applies to All Pages) ======= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center; /* Centers all text on the page */
+}
+
+/* ======= Navigation Bar ======= */
+nav {
+    background-color: #004d99;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Aligns items in the center */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+/* ======= About Us Section ======= */
+#about {
+    padding: 40px;
+    max-width: 800px; /* Restricts width for better readability */
+    margin: auto;
+}
+
+#about h2 {
+    color: #004d99;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ======= Mission & Vision Section ======= */
+#mission, #vision {
+    background: #eef;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+#mission h3, #vision h3 {
+    color: #004d99;
+}
+
+/* ======= Newsletter Subscription ======= */
+#newsletter {
+    padding: 20px;
+    background: #004d99;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#newsletter button {
+    padding: 10px;
+    background: gold;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#newsletter button:hover {
+    background-color: #ffcc00;
+}
+
+/* ======= Footer ======= */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d99;
+    color: white;
+    margin-top: 20px;
+}
+
+/* ======= Gallery Page Styles ======= */
+#gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+#gallery h2 {
+    color: #004d99;
+}
+
+#gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+#gallery img:hover {
+    border-color: gold;
+}
+
+
+/* ======= Contact Page Styles ======= */
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #004d99;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Social Media Links */
+#contact p a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+}
+
+
+/* ======= Booking Page Styles ======= */
+#booking {
+    padding: 40px;
+    text-align: center;
+}
+
+#booking h2 {
+    color: #004d99;
+}
+
+/* Booking Form */
+#booking form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#booking input, #booking select, #booking button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#booking button {
+    background-color: #004d99;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#booking button:hover {
+    background-color: #003366;
+}
+
