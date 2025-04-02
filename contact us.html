@@ -9,29 +9,68 @@
         contact us
     </title>
     <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 <body>
     <header>
         <h1>contact us</h1>
         <nav>
             <ui>
-                <li><a href="home.html">home</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="about us.html">about us</a></li>
-                <li><a href="our gallery.html">our gallery</a></li>
-                <li><a href="contact us.html">contact us</a></li>
-                <li><a href="book a service.html">book a service</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about us.html">About us</a></li>
+                <li><a href="our gallery.html">Our gallery</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+                <li><a href="book a service.html">Book a service</a></li>
                 </ul></li>
             </ui>
         </nav>
     </header>
-    <section id="contact">
-        <h2>follow us</h2>
-        <p>instagram:IDM_cleaning</p>
-        <p>twitter:@IDM cleaning</p>
+    
+<section id="contact-us">
+  <h2>Contact Us</h2>
 
- </section>
- <footer>
+  <form id="complaint-form">
+    <h3>Submit a Complaint</h3>
+    
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="complaint">Your Complaint:</label><br>
+    <textarea id="complaint" name="complaint" rows="5" required></textarea><br><br>
+
+    <button type="submit">Submit Complaint</button>
+  </form>
+
+  <div id="contact-info">
+    <h3>Get in Touch</h3>
+    <p><strong>Phone:</strong> +123 456 7890</p>
+    <p><strong>Email:</strong> info@example.com</p>
+    <p><strong>Address:</strong> 123 Street Name, City, Country</p>
+  </div>
+
+  <div id="social-media">
+    <h3>Follow Us</h3>
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a> |
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> |
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  </div>
+
+  <div id="map">
+    <h3>Find Us</h3>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317715.10155002466!2d-122.51126605238698!3d37.757814997539335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1b9f5aafdb%3A0x2e18b5b5c8d8e0bb!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2s!4v1640192880515!5m2!1sen!2s" 
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+      <footer>
     <p>2024 IDM cleaning services all rights reserved</p>
 </footer>
 
