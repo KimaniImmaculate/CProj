@@ -1,34 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-<meta name="viewport"content="width=device-width">
-<initial scale="1.0">
-    </initial>
-    <title>
-        Book a Service 
-    </title>
-    <link rel="stylesheet"href="style2.css">
-</head>
-<body>
     <header>
-        <h1>IDM CLEANING SERVICES</h1>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about us.html">About us</a></li>
-                <li><a href="our gallery.html">Our gallery</a></li>
-                <li><a href="contact us.html">Contact us</a></li>
-                <li><a href="book a service.html">Book a service</a></li>
-                </ul></li>
-            </ul>
-        </nav>
+    <script src="script.js"></script>
     </header>
 
-    <h1>Book a Service</h1>
 
-    <form>
+    <h2>Book a Service</h2>
+
+    <form id="booking-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -43,45 +22,49 @@
 
         <label>Choose a Service:</label><br>
 
-        <input type="checkbox" id="bedroom" name="service" value="Bedroom Cleaning">
-        <label for="bedroom">Bedroom Cleaning</label><br>
+        <input type="checkbox" id="bedroom" name="service" value="500">
+        <label for="bedroom">Bedroom Cleaning (Ksh 500)</label><br>
 
-        <input type="checkbox" id="car" name="service" value="Car Cleaning">
-        <label for="car">Car Cleaning</label><br>
+        <input type="checkbox" id="car" name="service" value="800">
+        <label for="car">Car Cleaning (Ksh 800)</label><br>
 
-        <input type="checkbox" id="kitchen" name="service" value="Kitchen Cleaning">
-        <label for="kitchen">Kitchen Cleaning</label><br>
+        <input type="checkbox" id="kitchen" name="service" value="700">
+        <label for="kitchen">Kitchen Cleaning (Ksh 700)</label><br>
 
-        <input type="checkbox" id="compound" name="service" value="Compound Cleaning">
-        <label for="compound">Compound Cleaning</label><br>
+        <input type="checkbox" id="compound" name="service" value="1000">
+        <label for="compound">Compound Cleaning (Ksh 1000)</label><br>
 
-        <input type="checkbox" id="bathroom" name="service" value="Bathroom Cleaning">
-        <label for="bathroom">Bathroom Cleaning</label><br>
+        <input type="checkbox" id="bathroom" name="service" value="600">
+        <label for="bathroom">Bathroom Cleaning (Ksh 600)</label><br>
 
-        <input type="checkbox" id="hallways" name="service" value="Hallways and Staircase Cleaning">
-        <label for="hallways">Hallways and Staircase Cleaning</label><br>
+        <input type="checkbox" id="hallways" name="service" value="750">
+        <label for="hallways">Hallways and Staircase Cleaning (Ksh 750)</label><br>
 
-        <input type="checkbox" id="livingroom" name="service" value="Living Room and Common Area Cleaning">
-        <label for="livingroom">Living Room and Common Area Cleaning</label><br><br>
+        <input type="checkbox" id="livingroom" name="service" value="900">
+        <label for="livingroom">Living Room and Common Area Cleaning (Ksh 900)</label><br><br>
 
         <label>Choose Payment Method:</label><br>
         <input type="radio" id="mpesa" name="payment-method" value="Mpesa">
         <label for="mpesa">Mpesa</label><br>
 
         <input type="radio" id="airtel-money" name="payment-method" value="Airtel Money">
-        <label for="airtel-money">Airtel Money</label><br>
+        <label for="airtel-money">Airtel Money</label><br><br>
 
-        <label for="phone-repeat">Phone No (again):</label>
-        <input type="tel" id="phone-repeat" name="phone-repeat" required><br><br>
+        <label for="phone-repeat">payment number:</label>
+        <input type="tel"id="phone-repeat"name="phone repeat"required><br><br>
 
         <label for="message">Tell Us More:</label><br>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
+        <!-- Total Price Display -->
+        <p id="total-price">Total Price: Ksh 0</p>
+
         <button type="submit">Submit</button>
     </form>
-    <footer>
-    <p>2025 IDM cleaning services all rights reserved</p>
-</footer>
 
+    <footer>
+        <p>2025 IDM Cleaning Services. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
