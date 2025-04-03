@@ -1,0 +1,417 @@
+/* ======= Global Styles ======= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8fa;
+    color: #333;
+}
+
+/* ======= Header ======= */
+header {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* ======= Navigation Bar ======= */
+nav {
+    background-color: #002d5b;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+/* ======= Hero Section ======= */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: lavender;
+}
+
+#hero h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* ======= Why Choose Us Section ======= */
+#why-choose-us {
+    background: #eef;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#why-choose-us h2 {
+    font-size: 26px;
+    color: #004d99;
+}
+
+#why-choose-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+}
+
+/* ======= Testimonials Section ======= */
+#testimonials {
+    background: #ddd;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 26px;
+    color: #004d99;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    color: #004d99;
+}
+
+/* ======= Footer ======= */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d99;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* ======= About Us Page Styling ======= */
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f8fa;
+}
+
+.about-us h2 {
+    font-size: 26px;
+    color: #004d99;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ======= FAQ Section ======= */
+#faq {
+    background: #eef;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.faq-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    color: #004d99;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    background: #f8f8fa;
+    border-radius: 5px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    display: none; /* Initially hidden */
+    padding: 10px;
+    margin: 0;
+}
+
+/* Show answer when clicked */
+.faq-item.active p {
+    display: block;
+}
+
+/* ======= Services Page Styling ======= */
+#services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8fa;
+}
+
+#services h2 {
+    font-size: 30px;
+    color: #004d99;
+    margin-bottom: 30px;
+}
+
+#services div {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#services div:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.2);
+}
+
+#services h3 {
+    font-size: 22px;
+    color: #004d99;
+    margin-bottom: 15px;
+}
+
+#services p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}
+
+/* ======= Book a Service Page Styling ======= */
+form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form textarea {
+    font-family: inherit;
+    resize: vertical;
+}
+
+form button {
+    background-color: #004d99;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+/* ======= Contact Us Page Styling ======= */
+#contact-us {
+    padding: 40px 20px;
+    background-color: #f8f8fa;
+    text-align: center;
+}
+
+#contact-us h2 {
+    font-size: 30px;
+    color: #004d99;
+    margin-bottom: 20px;
+}
+
+/* ======= Complaint Form Styling ======= */
+#complaint-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#complaint-form h3 {
+    font-size: 24px;
+    color: #004d99;
+    margin-bottom: 15px;
+}
+
+#complaint-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#complaint-form input[type="text"],
+#complaint-form input[type="email"],
+#complaint-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#complaint-form button {
+    background-color: #004d99;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#complaint-form button:hover {
+    background-color: #003366;
+}
+
+/* ======= Contact Info Styling ======= */
+#contact-info {
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+#contact-info h3 {
+    font-size: 24px;
+    color: #004d99;
+    margin-bottom: 10px;
+}
+
+#contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* ======= Social Media Styling ======= */
+#social-media {
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#social-media h3 {
+    font-size: 24px;
+    color: #004d99;
+    margin-bottom: 10px;
+}
+
+#social-media a {
+    color: #004d99;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+#social-media a:hover {
+    color: gold;
+}
+
+/* ======= Map Section Styling ======= */
+#map {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+#map h3 {
+    font-size: 24px;
+    color: #004d99;
+    margin-bottom: 10px;
+}
