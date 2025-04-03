@@ -1,4 +1,3 @@
-/* ======= Global Styles ======= */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -189,12 +188,12 @@ footer {
 
 .faq-item p {
     font-size: 16px;
-    display: none; /* Initially hidden */
+    display: none; 
     padding: 10px;
     margin: 0;
 }
 
-/* Show answer when clicked */
+
 .faq-item.active p {
     display: block;
 }

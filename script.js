@@ -90,3 +90,4 @@ document.addEventListener("DOMContentLoaded", function () {
         calculateTotal(); // Reset price to 0
     });
 });
+
