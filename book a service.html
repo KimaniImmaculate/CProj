@@ -4,24 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Service</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Book a Service</h1>
+        <h1>IDM CLEANING SERVICES</h1>
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="our-gallery.html">Our Gallery</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="book-a-service.html">Book a Service</a></li>
+                <li><a href="our gallery.html">Our gallery</a></li>
+                <li><a href="book a service.html">Book a service</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <h2>Book a Service</h2>
+    <section id="book-us">
+        <h2>Book a Service</h2>
 
     <form id="booking-form">
         <label for="name">Name:</label>
@@ -36,7 +37,7 @@
         <label for="date">Choose a Date:</label>
         <input type="date" id="date" name="date" required><br><br>
 
-        <label>Choose a Service:</label><br>
+        <label>Choose a Service:</label>
 
         <input type="checkbox" id="bedroom" name="service" value="500">
         <label for="bedroom">Bedroom Cleaning (Ksh 500)</label><br>
@@ -59,7 +60,9 @@
         <input type="checkbox" id="livingroom" name="service" value="900">
         <label for="livingroom">Living Room and Common Area Cleaning (Ksh 900)</label><br><br>
 
-        <label>Choose Payment Method:</label><br>
+        <p id="total-price">Total Price: Ksh 0</p><br>
+
+        <label>Choose Payment Method:</label>
         <input type="radio" id="mpesa" name="payment-method" value="Mpesa">
         <label for="mpesa">Mpesa</label><br>
 
@@ -68,12 +71,10 @@
 
         <label for="phone-repeat">Payment number:</label>
         <input type="tel"id="phone-repeat"name="phone repeat"required><br><br>
-
+        
         <label for="message">Tell Us More:</label><br>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
-    
-        <p id="total-price">Total Price: Ksh 0</p>
 
         <button type="submit">Submit</button>
     </form>
